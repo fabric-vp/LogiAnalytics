@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting
+	ID="_settings"
+	>
+	<GlobalCSS
+		ID="themeSignal"
+		Theme="Signal"
+	/>
+	<Application
+		Caption="Vinny&apos;s App"
+	/>
+	<Path
+		AppPath="http://localhost:8080/JavaApp"
+	/>
+	<General
+		rdDebuggerStyle="ErrorDetail"
+		RepoFriendly="True"
+		ScriptingLanguage="JavaScript"
+	/>
+	<Connections
+		ID="Connections1"
+		>
+		<Connection
+			ID="SchemesPlus"
+			MySqlDatabase="ProcurePlusSchemesPlusBlank"
+			MySqlPassword="tunneluser"
+			MySqlPort="3333"
+			MySqlServer="127.0.0.1"
+			MySqlUser="tunneluser"
+			Type="MySql"
+		/>
+		<Connection
+			ID="Merchants"
+			MySqlDatabase="ProcurePlusMerchantPlusBlank"
+			MySqlPassword="tunneluser"
+			MySqlPort="3333"
+			MySqlServer="127.0.0.1"
+			MySqlUser="tunneluser"
+			Type="MySql"
+		/>
+	</Connections>
+	<TeamDevelopment/>
+</Setting>
