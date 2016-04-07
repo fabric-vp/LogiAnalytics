@@ -183,6 +183,20 @@ ORDER BY organisation_name ASC"
 							/>
 						</Action>
 					</Label>
+					<Label
+						Caption="Export table data to Excel"
+						Class="ThemeAlignRight"
+						HtmlTag="P"
+						>
+						<Action
+							Type="NativeExcel"
+							>
+							<Target
+								ExcelOutputFormat="MST"
+								Type="NativeExcel"
+							/>
+						</Action>
+					</Label>
 					<DataTable
 						AccessibleHeaders="True"
 						AccessibleSummary="DataTable"
